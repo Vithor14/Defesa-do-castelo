@@ -3,6 +3,8 @@ import random
 import time
 from math import cos,radians
 
+##Versão mais dificil do jogo, usando sprites menores
+
 def distancia(angulo,passo = 1.0):
     res = cos(radians(angulo))
     if res == 0:
