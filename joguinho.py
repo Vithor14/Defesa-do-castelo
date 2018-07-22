@@ -3,6 +3,7 @@ import random
 import time
 from math import cos, radians
 
+##versão original do jogo
 
 def distancia(angulo, passo=1.0):
     res = cos(radians(angulo))
