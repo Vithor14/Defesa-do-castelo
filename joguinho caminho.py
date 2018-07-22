@@ -3,6 +3,8 @@ import random
 import time
 from math import cos,radians
 
+##versão do jogo que o caminho feito pelos inimigos é mostrado
+
 def distancia(angulo,passo = 1.0):
     res = cos(radians(angulo))
     if res == 0:
